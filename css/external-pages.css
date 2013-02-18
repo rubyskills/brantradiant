@@ -199,8 +199,10 @@
 	height: 34px;
 	display: inline-block;
 }
+}
 #contact i.phone { background-position: 0px 0px; }
 #contact i.email { background-position: 0 -47px; }
+#contact i.fax {background-position: 0 -91px; }
 
 #contact .form hr {
 	border-top: 1px solid #d5d5d5;
