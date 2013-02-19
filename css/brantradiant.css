@@ -21,3 +21,42 @@ top: 0px;
 body {
     padding-top: 163px;
 }
+
+#blog_wrapper .header hr {
+    width: 58%;
+}
+
+@media (min-width: 1200px) {
+
+   #blog_wrapper .header hr {
+    width: 66%;
+   } 
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+   
+    #blog_wrapper .header hr {
+	width: 46%;
+    }
+    
+    body {
+	padding-top: 0px;
+    }
+}
+
+@media (max-width: 767px) { 
+    
+    body {
+	padding-top: 0px;
+    }
+    
+    #blog_wrapper .header hr {
+	width: 43%;
+    }
+}
+
+@media (max-width: 480px) {
+    #blog_wrapper .header hr {
+	width: 0px;
+    }
+}
