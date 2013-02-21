@@ -61,28 +61,6 @@ body {
     }
 }
 
-/* blog post */
-
-
-/* new comment */
-.blog_post .new_comment {
-	border-top: 1px solid #c0c1c3;
-	box-shadow: inset 0px 2px 1px 0px white;
-	padding-top: 30px;
-}
-.blog_post .new_comment form {
-	margin-top: 35px;
-}
-.blog_post .new_comment form input[type="text"] {
-	height: 25px;
-	width: 100%;
-}
-.blog_post .new_comment form textarea {
-	margin-top: 10px;
-	width: 100%;
-}
-
-
 /* sidebar */
 .sidebar .search-query {
 	margin-top: 20px;
@@ -142,14 +120,14 @@ body {
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-	#blog_wrapper .header hr {
+	#portfolio .header hr {
 		width: 70%;
 	}
-	#blog_wrapper .post .main_pic {
+	#portfolio .post .main_pic {
 		display: block;
 		margin: 0 auto;
 	}
-	#blog_wrapper .sidebar .recent_posts .thumb {
+	#portfolio .sidebar .recent_posts .thumb {
 		max-width: 100px;
 	}
 }
@@ -165,7 +143,7 @@ body {
 }
 /* Large desktop */
 @media (min-width: 1200px) {
-	#blog_wrapper .post .info {
+	#portfolio .post .info {
 		width: 420px;
 	}
 }
