@@ -2,6 +2,10 @@
 background-color: #384999;
 }
 
+#footer {
+background: none;
+}
+
 #header .top {
 background-image: url(/img/Reverrberay-header.png);
 }
