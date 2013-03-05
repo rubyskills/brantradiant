@@ -1,3 +1,11 @@
+#footer .redbar {
+background-color: #384999;
+}
+
+#header .top {
+background-image: url(/img/Reverrberay-header.png);
+}
+
 .mainlogo {
     width: 40%;
     height: auto;
