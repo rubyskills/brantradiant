@@ -3,7 +3,6 @@ html {
 }
 body {
 	position: relative;
-	padding-top: 69px;
 	background: #DDDCE2 url(../img/content_bg.jpg) repeat left top;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Lato', sans-serif !important;
