@@ -2,6 +2,10 @@ body {
     background: none;
 }
 
+a {
+    color: #fe0000;
+}
+
 .partsearch {
     padding: 30px;
 }
@@ -30,13 +34,32 @@ margin-top: 1px;
 z-index: 9000;
 }
 
+#footer .columns {
+    height: 135px;
+    background-color: #05124E;
+}
+
+#footer .address {
+    margin: 8px 0 0 0;
+    padding: 0 15px 0 63px;
+}
+
+#footer .address h2 {
+    color: white;
+}
+
+#footer .links {
+    margin: 58px 0 0 0;
+    padding: 0 52px 0 18px;
+}
+
 #footer .redbar {
-    background-color: #384999;
+    background-color: #05124E;
 }
 
 #footer {
     background: none;
-    color: black;
+    color: white;
 }
 
 .mainlogo {
@@ -47,8 +70,11 @@ z-index: 9000;
 }
 
 .navbar-inner{
-    padding: 6px 0 0px 0;
+    padding: 0px 0 0px 0;
+    background:  #05124E;
+    border: 0px;
 }
+
 
 .navbar .brand {
     padding: 0px 0px 0px;
