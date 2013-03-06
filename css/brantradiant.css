@@ -1,3 +1,57 @@
+/* Rep Login nav bar bottem */
+
+#footer .left {
+background-image: url(img/footernavbarleft.png);
+background-repeat: no-repeat;
+background-position: left;
+padding-left: 5px;
+height: 70px;
+width: 100%;
+}
+
+#footer .right {
+background-image: url(img/footernavbarright.png);
+background-repeat: no-repeat;
+background-position: right;
+padding-right: 5px;
+height: 70px;
+width: 100%;
+}
+
+#footer .center {
+background-image: url(img/footernavbar.png);
+background-repeat: repeat-x;
+height: 70px;
+width: 100%;
+}
+
+#footer #menu-quicklinks .menu-item:first-child {
+background-color: transparent;
+padding: 0;
+float: left;
+border-radius: 0;
+background-image: url(img/repbutton.png);
+background-repeat: no-repeat;
+height: 63px;
+width: 301px;
+margin: 1px 30px 1px 6px;
+}
+
+#footer #menu-quicklinks .menu-item:first-child a {
+float: left;
+display: inline-block;
+padding: 16px 18px 16px 115px;
+margin: 10px 0 10px 0;
+}
+
+#footer #menu-quicklinks .menu-item:first-child a:before {
+content: url(img/reparrow.png);
+padding-right: 18px;
+}
+
+/* /Rep Login nav bar bottem */
+
+
 body {
     background: none;
 }
