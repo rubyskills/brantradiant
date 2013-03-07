@@ -1,313 +1,50 @@
-body {
-    background: none;
-}
-
-a {
-    color: #fe0000;
-}
-
-/* carousel override */
-.carousel-caption {
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 15px;
-    background: #333;
-    background: rgba(0, 0, 0, 0.75);
-}
-/* /carousel override */
-
-.partsearch {
-    padding: 30px;
-}
-
-.nav2 {
-    width: 960px;
-    margin: 0px auto;
-}
-
-/* nav bar sizes */
-
-.navbar {
-    overflow: visible;
-    margin-bottom: 20px;
-    color: #777;
-    padding: 0px 20% 0px 20%;
-}
-
-.btn-mini {
-    padding: 0px 0px;
-    font-size: 11px;
-    line-height: 4px;
-}
-
-.navbar .nav > li > a {
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
-    text-shadow: none;
-    -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -ms-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-}
-
-.navbar .btn, .navbar .btn-group {
-    margin: 3px 2px 1px 4px;
-}
-
-#footer .nav {
-    padding: 5px;
-    margin: 0px auto;
-}
-
-/* /nav bar size */
-
-#header .top {
-    min-width: auto;
-    height: 202px;
-    position: relative;
-    background-image: url(/img/Brant-Radiant-header.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: black;
+#header .welcome .title {
+color: #23378d;
+font-family: AlternateGothicNo1;
+font-size: 48px;
+line-height: 57px;
+padding: 63px 0 0 87px;
+letter-spacing: 2px;
+position: absolute;
 }
 
 #header .bottom {
-    padding-bottom: 0px;
-    background-color: #101658;
+background-color: #AEB3D1;
+width: 100%;
+min-height: 50px;
+position: relative;
+padding-bottom: 20px;
+}
+
+#header .welcome .intro {
+color: #23378d;
+font-family: helvetica;
+font-size: 14px;
+line-height: 20px;
+word-spacing: 2px;
 }
 
 #header .content_filter {
-    border-left: 1px solid #FFF2D0;
-    height: 96px;
-    width: 520px;
-    float: right;
-    position: relative;
-    margin-top: 1px;
-    z-index: 9000;
+border-left: 3px solid #23378d;
+height: 103px;
+width: 520px;
+float: right;
+position: relative;
+margin-top: 21px;
+z-index: 9000;
+padding-left: 53px;
 }
 
-#footer .columns {
-    height: 135px;
-    background-color: #05124E;
+#header .content_filter .title {
+    padding: 10px 0 0 33px;
+    color: #23378d;
 }
 
-#footer .address,
-#footer .links,
-#footer .usg_logo,
-#footer .social_media,
-#footer .disclaimer {
-    float: left;
+.btn {
+color: #23378d;
 }
 
-#footer .address h2 {
-    font-family: AlternateGothicNo1;
-    font-size: 22px;
-    margin: 0;
-    color: #333333;
-}
-
-#footer .address p,
-#footer .links {
-    font-size: 12px;
-    line-height: 18px;
-    margin: 0;
-}
-
-#footer .address {
-    margin: 8px 0 0 0;
-    padding: 0 15px 0 63px;
-    border-right: solid 1px;
-    border-color: #c8c8c8;
-}
-
-#footer .address h2 {
-    color: white;
-}
-
-#footer .links {
-    margin: 58px 0 0 0;
-    padding: 0 52px 0 18px;
-}
-
-#footer .redbar {
-    background-color: #05124E;
-    width: 100%;
-    height: 10px;
-}
-
-#footer {
-    background: none;
-    color: white;
-}
-
-#footer .bottom {
-    min-width: auto;
-    height: 80px;
-    position: relative;
-    background-image: url(/img/bottom.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #333;
-    width: 100%;
-}
-
-#footer .links li {
-    list-style-type: none;
-}
-
-#footer .address img {
-    vertical-align: baseline;
-}
-
-.mainlogo {
-    width: 40%;
-    height: auto;
-    float: right;
-    padding-top: 10px;
-}
-
-.navbar-inner{
-    padding: 0px 0 0px 0;
-    background:  #05124E;
-    border: 0px;
-}
-
-
-.navbar .brand {
-    padding: 0px 0px 0px;
-    float: right;
-}
-
-.navbar .nav.pull-right {
-    top: 0px;
-}
-
-#blog_wrapper .header hr {
-    width: 58%;
-}
-
-@media (min-width: 1200px) {
-
-    #blog_wrapper .header hr {
-	width: 66%;
-    } 
-}
-
-@media (min-width: 768px) and (max-width: 979px) { 
-    
-    #blog_wrapper .header hr {
-	width: 46%;
-    }
-    
-    body {
-	padding-top: 0px;
-    }
-}
-
-@media (max-width: 767px) { 
-    
-    body {
-	padding-top: 0px;
-    }
-    
-    #blog_wrapper .header hr {
-	width: 43%;
-    }
-}
-
-@media (max-width: 480px) {
-    #blog_wrapper .header hr {
-	width: 0px;
-    }
-}
-
-/* sidebar */
-.sidebar .search-query {
-    margin-top: 20px;
-    height: 20px;
-}
-.sidebar .sidebar_header {
-    margin-top: 50px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #bfc0c4;
-    box-shadow: 0px 2px 1px 0px white;
-}
-.sidebar .sidebar_menu {
-    list-style-type: none;
-    margin-top: 30px;
-    margin-left: 0px;
-}
-.sidebar .sidebar_menu li {
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-.sidebar .sidebar_menu li a {
-    color: #333;	
-}
-.sidebar .sidebar_menu li a:hover {
-    color: #87a46e;
-    text-decoration: underline;
-}
-.sidebar .recent_posts {
-    list-style-type: none;
-    margin-top: 30px;
-    margin-left: 0px;
-}
-.sidebar .recent_posts li {
-    margin-bottom: 20px;
-    font-size: 15px;
-}
-.sidebar .recent_posts .thumb {
-    border: 3px solid #fff;
-    box-shadow: 0px 0px 1px 1px #bdbdbd;
-}
-.sidebar .recent_posts a.link {
-    color: #333;
-    display: block;
-    margin-top: 10px;
-}
-.sidebar .recent_posts a:hover {
-    color: #87a46e;
-    text-decoration: underline;
-}
-
-/* Responsive
-   -------------------------------------------------- */
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-
-}
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-    #portfolio .header hr {
-	width: 70%;
-    }
-    #portfolio .post .main_pic {
-	display: block;
-	margin: 0 auto;
-    }
-    #portfolio .sidebar .recent_posts .thumb {
-	max-width: 100px;
-    }
-}
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
-    
-}
-@media (max-width: 979px) {
-    
-}
-@media (min-width: 980px) {
-    
-}
-/* Large desktop */
-@media (min-width: 1200px) {
-    #portfolio .post .info {
-	width: 420px;
-    }
+.btn-group > .btn, .btn-group > .dropdown-menu {
+font-size: 15px;
+font-weight: bold;
 }
