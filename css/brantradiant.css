@@ -48,3 +48,12 @@ color: #23378d;
 font-size: 15px;
 font-weight: bold;
 }
+
+#mainnav {
+background-image: -webkit-linear-gradient(top, #0333C5, rgba(95, 124, 218, 0));
+background-image: linear-gradient(top, #fefaff, #ece8ed);
+background-image: -o-linear-gradient(top, #fefaff, #ece8ed);
+background-image: -moz-linear-gradient(top, #fefaff, #ece8ed);
+background-image: -ms-linear-gradient(top, #fefaff, #ece8ed);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefaff', endColorstr='#ece8ed');
+}
