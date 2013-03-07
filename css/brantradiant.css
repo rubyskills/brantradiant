@@ -1,3 +1,13 @@
+#header .top {
+min-width: 1096px;
+height: 202px;
+position: relative;
+background-image: url(/img/HEADER.gif);
+background-repeat: no-repeat;
+background-position: center;
+background-color: black;
+}
+
 #header .welcome .title {
 color: #23378d;
 font-family: AlternateGothicNo1;
@@ -56,4 +66,21 @@ background-image: -o-linear-gradient(top, #fefaff, #ece8ed);
 background-image: -moz-linear-gradient(top, #fefaff, #ece8ed);
 background-image: -ms-linear-gradient(top, #fefaff, #ece8ed);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefaff', endColorstr='#ece8ed');
+}
+
+#footer .bottom {
+min-width: 1096px;
+height: 80px;
+position: relative;
+background-image: url(/img/BrantRadiantfooter.png);
+background-repeat: no-repeat;
+background-position: center;
+background-color: #b6bad6;
+width: 100%;
+}
+
+#footer .redbar {
+background-color: #23378d;
+width: 100%;
+height: 10px;
 }
