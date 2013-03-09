@@ -92,16 +92,36 @@ margin: 0;
 color: #333;
 }
 
-#footer .address {
+#footer .address p, #footer .links {
+font-size: 17px;
 font-family: MyriadPro- Bold;
-margin: 40px 0 0 0;
+line-height: 18px;
+}
+
+#footer .address {
+margin: 19px 0 0 0;
 padding: 0 50px 0 75px;
 border-right: solid 1px;
 border-color: #C8C8C8;
 }
 
-#footer .address p, #footer .links {
-font-size: 14px;
-line-height: 18px;
-margin: 0;
+/* About Page css override */
+
+#content h1 {
+font-family: AlternateGothicNo1;
+font-weight: 100;
+font-size: 63px;
+line-height: 60px;
+color: #23378D;
+margin: -8px 0 0;
 }
+
+#content h2 {
+font-size: 19px;
+line-height: 36px;
+color: #848484;
+margin: -5px 0 0;
+clear: both;
+}
+
+/* /About Page css override */
