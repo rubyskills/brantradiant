@@ -12,7 +12,7 @@ Version: 1.0
 
 
 
-/*
+
 @font-face {
 	font-family: "AlternateGothicNo1";
 	src: url("css/Fonts/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix");
@@ -57,8 +57,7 @@ h5 {
 	font-weight: bold;
 	margin-top: 0;
 }
-*/
-/*
+
 h6 {
 	font-size: 26px;
 	color: #848484;
@@ -69,13 +68,12 @@ a {
 	text-decoration: none;
 	color: #0071B3;
 }
-*/
-/*
+
 a:hover {
 	color: #018FE2;
 	text-decoration:underline;
 }
-/*
+
 .wrapper {
 	width: 1096px;
 	margin: 0 auto;
@@ -85,8 +83,7 @@ a:hover {
 #header {
 	width: 100%;
 }
-*/
-/*
+
 #header .top {
 	min-width: 1096px;
 	height: 202px;
@@ -96,8 +93,7 @@ a:hover {
 	background-position: center;
 	background-color: black;
 }
-*/
-/*
+
 #header .logo {
 	position: absolute;
 	top: 166px;
@@ -491,8 +487,7 @@ a:hover {
 	border-top-left-radius: 6px;
 	border-bottom-left-radius: 6px;
 }
-*/
-/*
+
 #content .sidebar-products .children li.hover {
 	background-color: rgb(204, 204, 204);
 }
@@ -512,8 +507,8 @@ a:hover {
 	color: rgb(10, 10, 10);
 	z-index: 20;
 }
-*/
-/*
+
+
 .sidebar-products .children li.hover .preview {
 	display: block;
 }
@@ -560,8 +555,7 @@ a:hover {
 	background-image: url(images/product_nav.jpg);
 	background-repeat: repeat;
 }
-*/
-/*
+
 #content .zipcode_searchbar .button,
 #content .details .nav li a:hover,
 #content .details .nav li a.active,
@@ -620,8 +614,7 @@ a:hover {
 	margin-bottom: 10px;
 	float: left;
 }
-*/
-/*
+
 #content #details-cad-revit .files a:before {
 	content: url(images/application-octet-stream.png);
 	padding-right: 10px;
@@ -724,8 +717,7 @@ td {
 	float: left;
 	padding: 0 20px 20px 0;
 }
-*/
-/*
+
 #content .distributor p {
 	padding-top: 12px;
 }
@@ -840,8 +832,7 @@ td {
 	height: 1px;
 	width: 960px;
 }
-*/
-/*
+
 #footer {
 	width: 100%;
 }
@@ -850,8 +841,7 @@ td {
 	padding-bottom: 33px;
 	margin: 0 60px;
 }
-*/
-/*
+
 #footer .center {
 	background-image: url(images/footernavbar.png);
 	background-repeat: repeat-x;
@@ -867,8 +857,7 @@ td {
 	height: 70px;
 	width: 100%;
 }
-*/
-/*
+
 #footer .right {
 	background-image: url(images/footernavbarright.png);
 	background-repeat: no-repeat;
@@ -877,12 +866,12 @@ td {
 	height: 70px;
 	width: 100%;
 }
-*/
+
 #footer ul {
 	padding: 0;
 	margin: 0;
 }
-/*
+
 #footer #menu-quicklinks li {
 	list-style-type: none;
 	display: inline-block;
@@ -896,8 +885,7 @@ td {
 	padding: 3px 14px;
 	display: inline-block;
 }
-*/
-/*
+
 #footer #menu-quicklinks .menu-item:hover {
 	background-color: #e9612b;
 }
@@ -906,8 +894,7 @@ td {
 	color: #FFF;
 	text-decoration: none;
 }
-*/
-/*
+
 #footer #menu-quicklinks .menu-item {
 	background-color: #fcb93b;
 	float: left;
@@ -926,8 +913,7 @@ td {
 	width: 301px;
 	margin: 1px 30px 1px 6px;
 }
-*/
-/*
+
 #footer #menu-quicklinks .menu-item:first-child a {
 	float: left;
 	display: inline-block;
@@ -943,15 +929,13 @@ td {
 #footer #menu-quicklinks .menu-item:first-child a:hover {
 	color: #000;
 }
-*/
-/*
+
 #footer .columns {
 	background-color: #ebebeb;
 	height: 178px;
 	margin-top: 7px;
 }
-*/
-/*
+
 #footer .address,
 #footer .links,
 #footer .usg_logo,
@@ -959,37 +943,37 @@ td {
 #footer .disclaimer {
 	float: left;
 }
-/*
+
 #footer .address h2 {
 	font-family: AlternateGothicNo1;
 	font-size: 22px;
 	margin: 0;
 	color: #333333;
 }
-/*
+
 #footer .address p,
 #footer .links {
 	font-size: 12px;
 	line-height: 18px;
 	margin: 0;
 }
-/*
+
 #footer .address {
 	margin: 40px 0 0 0;
 	padding: 0 50px 0 75px;
 	border-right: solid 1px;
 	border-color: #c8c8c8;
 }
-/*
+
 #footer .address img {
 	vertical-align: baseline;
 }
-/*
+
 #footer .links {
 	margin: 40px 0 0 0;
 	padding: 0 56px 0 28px;
 }
-/*
+
 #footer .social_media {
 	margin-top: 60px;
 	margin-bottom: 5px;
@@ -1010,7 +994,7 @@ td {
 	background-repeat: no-repeat;
 	height: 3px;
 }
-/*
+
 #footer .social_media li:hover img {
 	padding-top: 1px;
 	padding-bottom: 11px;
@@ -1027,18 +1011,18 @@ td {
 	border-left: solid 1px;
 	border-color: #c8c8c8;
 }
-/*
+
 #footer .disclaimer {
 	display: block;
 	font-size: 10px;
 	padding: 0;
 	margin: 0;
 }
-/*
+
 #footer .links li {
 	list-style-type: none;
 }
-/*
+
 #footer .usa {
 	padding-left: 32px;
 	margin-top: -7px;
@@ -1049,8 +1033,7 @@ td {
 	width: 100%;
 	height: 10px;
 }
-*/
-/*
+
 #footer .bottom {
 	min-width: 1096px;
 	height: 80px;
@@ -1061,7 +1044,7 @@ td {
 	background-color: #333333;
 	width: 100%;
 }
-*/
+
 /* -------------------------------------------------------------- 
    
    Basic WordPress Blog Styles   
@@ -1072,12 +1055,11 @@ td {
 /* Images
 -------------------------------------------------------------- */
 
-/*
+
 .entry-content img {
 	margin: 0 0 1.5em 0;
 }
-*/
-/*
+
 .alignleft,
 img.alignleft {
 	display: inline;
@@ -1104,8 +1086,7 @@ img.aligncenter {
 	text-align: center;
 	margin-bottom: 1.5em;
 }
-*/
-/*
+
 .wp-caption img {
 	border: 0 none;
 	margin: 0;
@@ -1128,11 +1109,11 @@ img.aligncenter {
 .gallery-caption {
 	margin: -1.5em 0 0 0;
 }
-*/
+
 /* Pullquotes
 -------------------------------------------------------------- */
 
-/*
+
 blockquote.left {
 	float: left;
 	margin-left: 0;
@@ -1148,4 +1129,3 @@ blockquote.right {
 	text-align: left;
 	width: 33%;
 }
-*/
