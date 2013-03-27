@@ -246,7 +246,7 @@ a:hover {
 
 #mainnav li {
     float: left;
-    background-image: url(images/nav_dividers.png);
+    background-image: url(/img/nav_dividers.png);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -291,7 +291,7 @@ a:hover {
 }
 
 .rotator {
-    background-image: url(images/rotator_background.jpg);
+    background-image: url(img/rotator_background.jpg);
     background-repeat: repeat-x;
     background-position: bottom;
 }
