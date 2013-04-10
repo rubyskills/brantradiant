@@ -11,14 +11,50 @@
 
 
 
-
+/*
 
 @font-face {
-    font-family: "AlternateGothicNo1";
-    src: url("css/Fonts/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix");
-    src: url("css/Fonts/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix") format("eot"), url("css/Fonts/f2ce3af9-0227-443e-ba37-0293d811f89b.woff") format("woff"), url("css/Fonts/490fb46a-54c6-486b-9dc8-4b6862162feb.ttf") format("truetype"), url("css/Fonts/27811e8b-0bca-46f2-8f73-bf56a19a5785.svg#27811e8b-0bca-46f2-8f73-bf56a19a5785") format("svg");
+    font-family: 'MyriadPro-Bold_0';
+    src: url('css/fonts/MyriadPro-Bold_0.eot?');
+    src: 
+    url('/fonts/MyriadPro-Bold_0.eot?') format('eot'), 
+    url('/fonts/MyriadPro-Bold_0.otf?') format('otf'), 
+    url('/fonts/MyriadPro-Bold_0.woff') format('woff'), 
+    url('/fonts/MyriadPro-Bold_0.ttf') format('truetype'), 
+    url('/fonts/MyriadPro-Bold_0.svg') format('svg');
 }
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+/*
+@font-face {
+    font-family: 'Helvetica';
+    src: url('helvetica.eot');
+    src: url('helvetica.eot?iefix') format('eot'),
+    url('helvetica.woff') format('woff'),
+    url('helvetica.ttf') format('truetype'),
+    url('helvetica.svg#helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MyriadPro-Bold_0";
+    src: url("css/fonts/MyriadPro-Bold_0.eot?");
+    src: 
+    url("css/fonts/MyriadPro-Bold_0.eot?") format("eot"), 
+    url("css/fonts/MyriadPro-Bold_0.woff") format("woff"), 
+    url("css/fonts/MyriadPro-Bold_0.ttf") format("truetype"), 
+    url("css/fonts/MyriadPro-Bold_0.svg") format("svg");
+}
+*/
 body {
     margin: 0;
     padding: 0;
@@ -35,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: AlternateGothicNo1;
+/*    font-family: AlternateGothicNo1; */
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -88,7 +124,7 @@ a:hover {
     min-width: 1096px;
     height: 202px;
     position: relative;
-    background-image: url(images/top_header_image.jpg);
+    background-image: url(/img/top_header_image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
@@ -111,7 +147,7 @@ a:hover {
 
 #header .welcome .title {
     color: #fcb93b;
-    font-family: AlternateGothicNo1;
+    font-family: MyriadPro-Bold_0;
     font-size: 48px;
     line-height: 57px;
     padding: 63px 0 0 87px;
@@ -155,7 +191,7 @@ a:hover {
 }
 
 #header .content_filter .selector {
-    background-image: url(images/selector_box.png);
+    background-image: url(/img/selector_box.png);
     background-repeat: no-repeat;
     width: 240px;
     height: 41px;
@@ -176,7 +212,7 @@ a:hover {
     padding: 2px 11px 0px 10px;
     width: 203px;
     border-radius: 5px;
-    background-image: url(images/selector_arrow.png);
+    background-image: url(/img/selector_arrow.png);
     background-position: 204px 7px;
     background-repeat: no-repeat;
     z-index: 30;
@@ -258,8 +294,8 @@ a:hover {
 #mainnav li a {
     display: inline-block;
     color: #fff;
-    font-family: AlternateGothicNo1;
-    font-size: 30px;
+    font-family: BebasNeueRegular;
+    font-size: 26px;
     line-height: 41px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -291,7 +327,7 @@ a:hover {
 }
 
 .rotator {
-    background-image: url(img/rotator_background.jpg);
+    background-image: url(/img/rotator_background.jpg);
     background-repeat: repeat-x;
     background-position: bottom;
 }
@@ -360,7 +396,7 @@ a:hover {
     height: 9px;
     width: 9px;
     margin: 5px;
-    background-image: url(images/dotsprite.png);
+    background-image: url(/img/dotsprite.png);
     display: inline-block;
 }
 
@@ -552,7 +588,7 @@ a:hover {
     text-transform: uppercase;
     color: #848484;
     padding: 15px 21px;
-    background-image: url(images/product_nav.jpg);
+    background-image: url(/img/product_nav.jpg);
     background-repeat: repeat;
 }
 
@@ -562,7 +598,7 @@ a:hover {
 #content .details .nav li.ui-state-active a {
     color: #FFF;
     text-decoration: none;
-    background-image: url(images/product_nav_hover.jpg); 
+    background-image: url(/img/product_nav_hover.jpg); 
     background-repeat: repeat; 
 }
 
@@ -609,14 +645,14 @@ a:hover {
 }
 
 #content .files a:before {
-    content: url(images/application-pdf.png);
+    content: url(/img/application-pdf.png);
     padding-right: 10px;
     margin-bottom: 10px;
     float: left;
 }
 
 #content #details-cad-revit .files a:before {
-    content: url(images/application-octet-stream.png);
+    content: url(/img/application-octet-stream.png);
     padding-right: 10px;
     margin-bottom: 10px;
     float: left;
@@ -649,7 +685,7 @@ td {
 }
 
 #content .zipcode_searchbar {
-    background-image: url(images/locator_box.png);
+    background-image: url(/img/locator_box.png);
     background-repeat: no-repeat;
     height: 140px;
     width: 700px;
@@ -843,14 +879,14 @@ td {
 }
 
 #footer .center {
-    background-image: url(images/footernavbar.png);
+    background-image: url(/img/footernavbar.png);
     background-repeat: repeat-x;
     height: 70px;
     width: 100%;
 }
 
 #footer .left {
-    background-image: url(images/footernavbarleft.png);
+    background-image: url(/img/footernavbarleft.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 5px;
@@ -859,7 +895,7 @@ td {
 }
 
 #footer .right {
-    background-image: url(images/footernavbarright.png);
+    background-image: url(/img/footernavbarright.png);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 5px;
@@ -875,9 +911,9 @@ td {
 #footer #menu-quicklinks li {
     list-style-type: none;
     display: inline-block;
-    font-family: AlternateGothicNo1;
+    font-family: BebasNeueRegular;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 #footer #menu-quicklinks li a {
@@ -898,8 +934,9 @@ td {
 #footer #menu-quicklinks .menu-item {
     background-color: #fcb93b;
     float: left;
-    margin: 23px 15px 0 0;
+    margin: 20px 15px 0 0;
     border-radius: 5px;
+    padding-top: 4px;
 }
 
 #footer #menu-quicklinks .menu-item:first-child {
@@ -907,7 +944,7 @@ td {
     padding: 0;
     float: left;
     border-radius: 0;
-    background-image: url(images/repbutton.png);
+    background-image: url(/img/repbutton.png);
     background-repeat: no-repeat;
     height: 63px;
     width: 301px;
@@ -922,7 +959,7 @@ td {
 }
 
 #footer #menu-quicklinks .menu-item:first-child a:before {
-    content: url(images/reparrow.png);
+    content: url(/img/reparrow.png);
     padding-right: 18px;
 }
 
@@ -989,7 +1026,7 @@ td {
 }
 
 #footer .social_media .shadow {
-    background-image: url(images/social_media_shadow_sprite.png);
+    background-image: url(/img/social_media_shadow_sprite.png);
     background-position: top center;
     background-repeat: no-repeat;
     height: 3px;
@@ -1038,7 +1075,7 @@ td {
     min-width: 1096px;
     height: 80px;
     position: relative;
-    background-image: url(images/bottom.jpg);
+    background-image: url(/img/bottom.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #333333;
