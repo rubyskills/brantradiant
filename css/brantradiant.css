@@ -10,16 +10,16 @@
     font-style: italic;
 }
 */
-/*
+
 @font-face {
     font-family: 'MyriadProBold';
-    src: url('fonts/myriadpro-bold_0.eot');
-    src: url('fonts/myriadpro-bold_0.eot') format('embedded-opentype'),
-         url('fonts/myriadpro-bold_0.woff') format('woff'),
-         url('fonts/myriadpro-bold_0.ttf') format('truetype'),
-         url('fonts/myriadpro-bold_0.svg#MyriadProBold') format('svg');
+    src: url('/fonts/myriadpro-bold_0.eot');
+    src: url('/fonts/myriadpro-bold_0.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/myriadpro-bold_0.woff') format('woff'),
+         url('/fonts/myriadpro-bold_0.ttf') format('truetype'),
+         url('/fonts/myriadpro-bold_0.svg#MyriadProBold') format('svg');
 }
-*/
+
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('/fonts/BebasNeue-webfont.eot');
@@ -31,13 +31,13 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'BebasNeue';
+    font-family: 'BebasNeueBold';
     src: url('/fonts/BebasNeue-webfont.eot');
     src: url('/fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
          url('/fonts/BebasNeue-webfont.woff') format('woff'),
          url('/fonts/BebasNeue-webfont.ttf') format('truetype'),
          url('/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -152,7 +152,7 @@ border-color: #C8C8C8;
 /* About Page css override */
 
 #content h1 {
-font-family: AlternateGothicNo1;
+font-family: BebasNeueBold;
 font-weight: 100;
 font-size: 61px;
 line-height: 60px;
