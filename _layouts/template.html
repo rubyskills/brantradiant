@@ -84,13 +84,14 @@
             <div id="location_selector" class="row">
 	      <div class="title">
 		<h4>Select Your Market</h4>
-		<div class="btn-group">
-		  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+		<div class="btn-group dropdown">
+		  <a class="btn dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown">
 		    COMMERCIAL & INDUSTRIAL
 		    <span class="caret"></span>
 		  </a>
-		  <ul class="dropdown-menu">
-		    <!-- dropdown menu links -->
+		  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+		    <li>COMMERCIAL & INDUSTRIAL</li>
+		    <li>AGRICULTRAL</li>
 		  </ul>
 		</div>
 	      </div>
@@ -194,5 +195,7 @@
       <script src="/js/jquery.cookie.js"></script> 
       <script src="/js/jquery.hoverIntent.minified.js"></script>
       <script src="/js/jquery.timer.js"></script>
+      <script src="/js/bootstrap-dropdown.js"></script> 
+      <script src="/js/bootstrap-scrollspy.js"></script> 
       
 </body></html>

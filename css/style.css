@@ -217,7 +217,7 @@ a:hover {
     background-repeat: no-repeat;
     z-index: 30;
 }
-
+/*
 #header .content_filter .dropdown {
     display: none;
     list-style-type: none;
@@ -231,11 +231,11 @@ a:hover {
     background-color: #f8f8f8;
     color: #757575;
 }
-
+*/
 #header .content_filter .dropdown li {
     font-family: arial;
-    font-size: 12px;
-    padding: 5px 10px;
+    font-size: 13px;
+    padding: 5px 57px 1px 14px;
     margin: 0;
     white-space: nowrap;
     border-top: 1px solid #f8f8f8;
@@ -923,7 +923,7 @@ td {
 }
 
 #footer #menu-quicklinks .menu-item:hover {
-    background-color: #e9612b;
+    background-color: #254197;
 }
 
 #footer #menu-quicklinks .menu-item a:hover {
@@ -932,7 +932,7 @@ td {
 }
 
 #footer #menu-quicklinks .menu-item {
-    background-color: #fcb93b;
+    background-color: #AEB3D1;
     float: left;
     margin: 20px 15px 0 0;
     border-radius: 5px;
