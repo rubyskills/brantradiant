@@ -2,7 +2,7 @@
 layout: template
 ---
 <div id="content">
-  <div class="content col2 product">
+  <div class="content col3 product">
     
     {% include products_side_nav.html %}
 
@@ -26,15 +26,37 @@ layout: template
       <img width="177" height="300" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/MP_tubehtr2_0.jpg" class="attachment-post-thumbnail wp-post-image" alt="MP_tubehtr2_0" />    
     </div>
     <!-- /.sidebar_right -->
-    
+
     <div class="details">
-      
-      <ul class="nav">
-        <li><a href="#details-features">Features</a></li>
-        <li><a href="#details-documentation">Documentation</a></li>
-        <li><a href="#details-specifications">Specifications</a></li>
-<!--        <li><a href="#details-related-parts">Related Parts &amp; Accessories</a></li> -->
-        <li><a href="#details-cad-revit">CAD &amp; Revit</a></li>
+
+<ul class="nav nav-tabs" id="myTab">
+  <li class="active"><a href="#home">Home</a></li>
+  <li><a href="#profile">Profile</a></li>
+  <li><a href="#messages">Messages</a></li>
+  <li><a href="#settings">Settings</a></li>
+</ul>
+ 
+<div class="tab-content">
+  <div class="tab-pane active" id="home">this is a test one</div>
+  <div class="tab-pane" id="profile">.2<div>
+  <div class="tab-pane" id="messages">maybe</div>
+  <div class="tab-pane" id="settings">pelase!</div>
+</div>
+
+<script>
+  $('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+  })
+</script>
+
+     
+      <ul class="nav nav-tabs">
+        <li><a href="#details-features" data-toggle="tab">Features</a></li>
+        <li><a href="#details-documentation" data-toggle="tab">Documentation</a></li>
+        <li><a href="#details-specifications" data-toggle="tab">Specifications</a></li>
+<!--        <li><a href="#details-related-parts" data-toggle="tab">Related Parts &amp; Accessories</a></li> -->
+        <li><a href="#details-cad-revit" data-toggle="tab">CAD &amp; Revit</a></li>
       </ul>
       <div style="clear: both;"></div>
       
