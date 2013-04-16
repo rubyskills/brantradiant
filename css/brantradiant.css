@@ -170,6 +170,69 @@ clear: both;
 
 /* /About Page css override */
 
-/* Locate Distributor css override */
+/* commercail & industrial thumnails */
+#content .main { 
+    float: none; 
+} 
 
-/* /Locate Distributor css override */
+.span3 { 
+    width: 166px; 
+}
+
+.well { 
+    padding: 3px; background-color: #fff; 
+} 
+
+.thumbnail { 
+    padding: 0px; 
+} 
+.thumbnail h3 { 
+    font-family: Arial; 
+    font-size: 16px; 
+    font-weight: bold; 
+    margin: 0em 0; 
+} 
+
+.secondrow { 
+    width: 67%; 
+    margin: 0px auto; 
+    margin-left: 333px; 
+} 
+
+#highintensity { 
+    padding-top: 36px; 
+    padding-bottom: 57px; 
+} 
+
+#portable { 
+    padding-top: 29px; 
+    padding-bottom: 31px; 
+} 
+
+#electric { 
+    padding-top: 29px; 
+    padding-bottom: 31px; 
+} 
+
+#unit { 
+    padding-top: 11px; 
+    padding-bottom: 14px; 
+} 
+
+#content .main p { 
+    margin: 0 0 0px 0; 
+} 
+
+#content .content { 
+    width: 955px; 
+}
+
+#content .col3 .main { 
+    width: 939px; 
+} 
+
+.thumbnail {
+    text-align: center;
+}
+
+/* /commercial & industrial thumnails */
