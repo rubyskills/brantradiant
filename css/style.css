@@ -580,26 +580,48 @@ a:hover {
     margin: 0;
 }
 
-#content .zipcode_searchbar .button:hover,
-#content .details .nav li a {
-    font-family: "AlternateGothicNo1";
-    font-size: 22px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #848484;
-    padding: 15px 21px;
-    background-image: url(/img/product_nav.jpg);
-    background-repeat: repeat;
-}
-
 #content .zipcode_searchbar .button,
+#content .details .nav li a {
+    font-family: "BebasNeueRegular";
+    font-size: 21px;
+    line-height: 14px;
+    text-transform: uppercase;
+/*    color: #848484; */
+    padding: 16px 15px;
+/*    background-image: url(/img/product_nav.jpg/); */
+    background-color: #AEB3D1;
+    background-repeat: repeat;
+    color: #000
+}
+/*
+#content .zipcode_searchbar .button:hover,
 #content .details .nav li a:hover,
 #content .details .nav li a.active,
 #content .details .nav li.ui-state-active a {
     color: #FFF;
     text-decoration: none;
-    background-image: url(/img/product_nav_hover.jpg); 
+    background-image: url(/img/product_nav_hover.jpg);
+    background-color: #254197;
     background-repeat: repeat; 
+}
+*/
+#content .zipcode_searchbar .button,
+#content .details .nav li a:hover {
+    color: white;
+    text-decoration: none;
+/*    background-image: url(/img/product_nav_hover.jpg); */
+    background-color: #254197;
+    background-repeat: repeat; 
+}
+
+#content .zipcode_searchbar .button,
+#content .details .nav li a.active,
+#content .details .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+    text-decoration: pink;
+/*    background-image: url(/img/product_nav_hover.jpg); */
+    background-color: #254197;
+    background-repeat: repeat;
+    color: white;
 }
 
 #content .details h3,
@@ -619,7 +641,7 @@ a:hover {
 }
 
 #content .details a {
-    color: #848484;
+/*    color: #848484; */
 }
 
 #content .details a:hover {
