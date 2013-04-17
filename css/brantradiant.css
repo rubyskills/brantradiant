@@ -237,3 +237,26 @@ clear: both;
 }
 
 /* /commercial & industrial thumnails */
+
+/* select your market dropdown override button */
+
+.dropdown-menu a {
+padding: 0px 0px;
+font-weight: bold;
+color: #23378D;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+text-decoration: none;
+color: #5A5A5A;
+background-color: #ECECEC;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+background-repeat: none;
+filter: none;
+}
+
+/* /select your market dropdown override button */
