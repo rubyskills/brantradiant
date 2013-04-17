@@ -3,7 +3,7 @@ layout: template
 ---
 <div id="content">
   <div class="content col3 product">
-    {% include products_side_nav.html %}
+    {% include commercail_industrial_side_nav.html %}
 
     <div class="main">
       
@@ -19,77 +19,81 @@ layout: template
     
     <div class="sidebar_right">
       
-      <img width="169" height="300" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/V2_tubehtr_1.jpg" class="attachment-post-thumbnail wp-post-image" alt="V2_tubehtr_1" />    
+      <img width="169" height="300" src="/img/LS_V2_tubehtr_1.jpg" class="attachment-post-thumbnail wp-post-image" alt="V2_tubehtr_1" />    
     </div>
     <!-- /.sidebar_right -->
     
     <div class="details">
       
-      <ul class="nav">
-        <li><a href="#details-features">Features</a></li>
-        <li><a href="#details-documentation">Documentation</a></li>
-        <li><a href="#details-specifications">Specifications</a></li>
-        <li><a href="#details-related-parts">Related Parts &amp; Accessories</a></li>
-        <li><a href="#details-cad-revit">CAD &amp; Revit</a></li>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#details-features" data-toggle="tab">Features</a></li>
+        <li><a href="#details-documentation" data-toggle="tab">Documentation</a></li>
+        <li><a href="#details-specifications" data-toggle="tab">Specifications</a></li>
+        <li><a href="#details-related-parts" data-toggle="tab">Related Parts &amp; Accessories</a></li>
+        <li><a href="#details-cad-revit" data-toggle="tab">CAD &amp; Revit</a></li>
       </ul>
       <div style="clear: both;"></div>
       
-      <div id="details-features">
-        <h3>Features:</h3>
-        <ul>
-	  <li>Stainless steel upgrade.</li>
-	  <li>Micro processor circuitry.</li>
-	  <li>Hot surface ignition.</li>
-	  <li>Turbulator baffle.</li>
-	  <li>Flex connection &amp; gas cock included.</li>
-	  <li>External operational light(s).</li>
-	  <li>Optional 24V relay.</li>
-	  <li>Two-stage technology.</li>
-	</ul>
+      <div class="tab-content">
+	
+	<div class="tab-pane active" id="details-features">
+          <h3>Features:</h3>
+          <ul>
+	    <li>Stainless steel upgrade.</li>
+	    <li>Micro processor circuitry.</li>
+	    <li>Hot surface ignition.</li>
+	    <li>Turbulator baffle.</li>
+	    <li>Flex connection &amp; gas cock included.</li>
+	    <li>External operational light(s).</li>
+	    <li>Optional 24V relay.</li>
+	    <li>Two-stage technology.</li>
+	  </ul>
+	</div>
+	<!-- /#details-features -->
+	
+	<div class="tab-pane" id="details-documentation">
+          <h3>Documentation:</h3>
+          <ul class="files">
+	    <li>
+	      <a href="/pdf/LD SERIES 0811.pdf" target="_blank">LD Series Brochure</a></li>
+	    <li>
+	      <a href="/pdf/Tube Heater Packing List.pdf" target="_blank">Tube Heater Packing List</a></li>
+	    <li>
+	      <a href="/pdf/LD Submittal_BRH_8-12.pdf" target="_blank">LD Series Engineering Submittal Data Sheet</a></li>
+	    <li>
+	      <a href="/pdf/Tube Heater Pre-Check.pdf" target="_blank">Tube Heater Application Guidelines</a></li>
+	  </ul> 
+	</div>
+	<!-- /#details-documentation -->
+	
+	<div class="tab-pane" id="details-specifications">
+          <h3>Specifications:</h3>
+          <ul>
+	    <li>BTU/h Range: 40,000 &#8211; 50,000 BTU/h (35% Low Fire Reduction)</li>
+	    <li>Gas Type: Natural or Propane</li>
+	    <li>Tube Lengths: 10 ft. &#8211; 30 ft.</li>
+	    <li>Limited Warranty 1/3/5 (Conponents/Tubes/Burner)</li>
+	    <li>Combustion Tube: 3&#8243; dia. Black Coated Titanium Treated Steel</li>
+	    <li>Radiant Tubes: 3&#8243; dia. Aluminized Steel, Black Coated</li>
+	    <li>Certification*: IAS, CGA, AGA, Select models are residentially certified.</li>
+	  </ul>
+	</div>
+	<!-- /#details-specifications -->
+	
+	<div class="tab-pane" id="details-related-parts">
+          <h3>Related Parts &amp; Accessories</h3>
+	  Coming soon!
+	  <!--        <ul class="links"><li><a href="http://www.drp-co.com/parts/reference/tube/ld.html" target="_blank">Re-Verber-Ray LD Series (Manufactured 06/00 - Present)</a></li></ul>       -->
+	</div>
+	<!-- /#details-related-parts -->
+	
+	<div class="tab-pane" id="details-cad-revit">
+          <h3>CAD &amp; Revit</h3>
+          <p>The AutoCAD drawings for Low Intensity Tube Heaters are in AutoCAD 2004 format. Dimensions are shown in English units (feet).</p>
+	  <p>Please contact Detroit Radiant Products for Revit families in a .rfa format accessible from Revit 2012 Architect, Structure or MEP programs.</p>
+          <ul class="files"><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_10_Straight_PV_1.dxf" target="_blank">DXF Plan View: 10&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_15_Straight_PV_0.dxf" target="_blank">DXF Plan View: 15&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_20_Straight_PV_0.dxf" target="_blank">DXF Plan View: 20&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_30_Straight_PV_0.dxf" target="_blank">DXF Plan View: 30&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/DB-E6_PV_0.dxf" target="_blank">DXF Plan View: 3&quot; 90° Elbow (P/N: DB-E6)</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/DB-REP_PV_0.dxf" target="_blank">DXF Plan View: 3&quot; 90° Reflector Elbow (P/N: DB-REP)</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/DB-TF1B_PV_0.dxf" target="_blank">DXF Plan View: 3&quot; 180° U-bend (P/N: DB-TF1B)</a></li></ul>        </div>
+	<!-- /#details-cad-revit -->
       </div>
-      <!-- /#details-features -->
-      
-      <div id="details-documentation">
-        <h3>Documentation:</h3>
-        <ul class="files">
-	  <li>
-	    <a href="/pdf/LD SERIES 0811.pdf" target="_blank">LD Series Brochure</a></li>
-	  <li>
-	    <a href="/pdf/Tube Heater Packing List.pdf" target="_blank">Tube Heater Packing List</a></li>
-	  <li>
-	    <a href="/pdf/LD Submittal_BRH_8-12.pdf" target="_blank">LD Series Engineering Submittal Data Sheet</a></li>
-	  <li>
-	    <a href="/pdf/Tube Heater Pre-Check.pdf" target="_blank">Tube Heater Application Guidelines</a></li>
-      </ul> 
-      </div>
-      <!-- /#details-documentation -->
-      
-      <div id="details-specifications">
-        <h3>Specifications:</h3>
-        <ul>
-	  <li>BTU/h Range: 40,000 &#8211; 50,000 BTU/h (35% Low Fire Reduction)</li>
-	  <li>Gas Type: Natural or Propane</li>
-	  <li>Tube Lengths: 10 ft. &#8211; 30 ft.</li>
-	  <li>Limited Warranty 1/3/5 (Conponents/Tubes/Burner)</li>
-	  <li>Combustion Tube: 3&#8243; dia. Black Coated Titanium Treated Steel</li>
-	  <li>Radiant Tubes: 3&#8243; dia. Aluminized Steel, Black Coated</li>
-	  <li>Certification*: IAS, CGA, AGA, Select models are residentially certified.</li>
-	</ul>
-      </div>
-      <!-- /#details-specifications -->
-      
-      <div id="details-related-parts">
-        <h3>Related Parts &amp; Accessories</h3>
-        <ul class="links"><li><a href="http://www.drp-co.com/parts/reference/tube/ld.html" target="_blank">Re-Verber-Ray LD Series (Manufactured 06/00 - Present)</a></li></ul>        </div>
-      <!-- /#details-related-parts -->
-      
-      <div id="details-cad-revit">
-        <h3>CAD &amp; Revit</h3>
-        <p>The AutoCAD drawings for Low Intensity Tube Heaters are in AutoCAD 2004 format. Dimensions are shown in English units (feet).</p>
-	<p>Please contact Detroit Radiant Products for Revit families in a .rfa format accessible from Revit 2012 Architect, Structure or MEP programs.</p>
-        <ul class="files"><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_10_Straight_PV_1.dxf" target="_blank">DXF Plan View: 10&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_15_Straight_PV_0.dxf" target="_blank">DXF Plan View: 15&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_20_Straight_PV_0.dxf" target="_blank">DXF Plan View: 20&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/LDLS_30_Straight_PV_0.dxf" target="_blank">DXF Plan View: 30&#039; Straight Tube Configuration</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/DB-E6_PV_0.dxf" target="_blank">DXF Plan View: 3&quot; 90° Elbow (P/N: DB-E6)</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/DB-REP_PV_0.dxf" target="_blank">DXF Plan View: 3&quot; 90° Reflector Elbow (P/N: DB-REP)</a></li><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/DB-TF1B_PV_0.dxf" target="_blank">DXF Plan View: 3&quot; 180° U-bend (P/N: DB-TF1B)</a></li></ul>        </div>
-      <!-- /#details-cad-revit -->
-      
     </div>
     <!-- /.details -->
     
