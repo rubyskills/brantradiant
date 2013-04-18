@@ -3,7 +3,7 @@ layout: template
 ---
 <div id="content">
   <div class="content col3 product">
-    {% include products_side_nav.html %}
+    {% include commercail_industrial_side_nav.html %}
 
     <div class="main">
       
@@ -17,73 +17,78 @@ layout: template
     
     <div class="sidebar_right">
       
-      <img width="240" height="86" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/QT-Iso-Illustration.jpg" class="attachment-post-thumbnail wp-post-image" alt="QT-Iso-Illustration" />    
+      <img width="240" height="86" src="/img/QT-Iso-Illustration.jpg" class="attachment-post-thumbnail wp-post-image" alt="QT-Iso-Illustration" />    
     </div>
     <!-- /.sidebar_right -->
     
     <div class="details">
       
-      <ul class="nav">
-        <li><a href="#details-features">Features</a></li>
-        <li><a href="#details-documentation">Documentation</a></li>
-        <li><a href="#details-specifications">Specifications</a></li>
-        <li><a href="#details-related-parts">Related Parts &amp; Accessories</a></li>
-        <li><a href="#details-cad-revit">CAD &amp; Revit</a></li>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#details-features" data-toggle="tab">Features</a></li>
+        <li><a href="#details-documentation" data-toggle="tab">Documentation</a></li>
+        <li><a href="#details-specifications" data-toggle="tab">Specifications</a></li>
+        <li><a href="#details-related-parts" data-toggle="tab">Related Parts &amp; Accessories</a></li>
+        <li><a href="#details-cad-revit" data-toggle="tab">CAD &amp; Revit</a></li>
       </ul>
       <div style="clear: both;"></div>
-      
-      <div id="details-features">
-        <h3>Features:</h3>
-        <ul>
-	  <li>Compact, aesthetically pleasing construction.</li>
-	  <li>Easy to install with minimal assembly required.</li>
-	  <li>Proven fuel savings.</li>
-	  <li>Multiple construction features including: dual spark ignition, highly emissive heat exchangers, highly polished aluminum reflectors, operational indicator lights, and more.</li>
-	  <li>Designed and packaged for ease in transportation.</li>
-	  <li>CSA Design Certified for both indoor and outdoor use and to Agricultural and Commercial/Industrial Standards.</li>
-	</ul>
-	<p>&nbsp;</p>
-	<p><img class="alignnone size-full wp-image-991" alt="QTS_features_0" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/QTS_features_0.jpg" width="460" height="260" /></p>
+
+      <div class="tab-content">      
+	
+	<div class="tab-pane active" id="details-features">
+          <h3>Features:</h3>
+          <ul>
+	    <li>Compact, aesthetically pleasing construction.</li>
+	    <li>Easy to install with minimal assembly required.</li>
+	    <li>Proven fuel savings.</li>
+	    <li>Multiple construction features including: dual spark ignition, highly emissive heat exchangers, highly polished aluminum reflectors, operational indicator lights, and more.</li>
+	    <li>Designed and packaged for ease in transportation.</li>
+	    <li>CSA Design Certified for both indoor and outdoor use and to Agricultural and Commercial/Industrial Standards.</li>
+	  </ul>
+	  <p>&nbsp;</p>
+	  <p><img class="alignnone size-full wp-image-991" alt="QTS_features_0" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/QTS_features_0.jpg" width="460" height="260" /></p>
+	</div>
+	<!-- /#details-features -->
+	
+	<div class="tab-pane" id="details-documentation">
+          <h3>Documentation:</h3>
+          <ul class="files">
+	    <li>
+	      <a href="/pdf/QTS SERIES 0611.pdf" target="_blank">QTS Series Quad Tube Brochure</a></li>
+	    <li>
+	      <a href="/pdf/QTS Submittal_BRH_9-12.pdf" target="_blank">QTS Series Submittal Data Sheet</a></li>
+	  </ul>       
+	</div>
+	<!-- /#details-documentation -->
+	
+	<div class="tab-pane" id="details-specifications">
+          <h3>Specifications:</h3>
+          <p><strong>Input Range: </strong>40,000 to 80,000 BTU/h<br />
+	    <strong>Lengths:</strong> 107&#8243;<br />
+	    <strong>Gas Type:</strong> Natural or Propane<br />
+	    <strong>Burner Control Box: </strong>Coated Enameled Steel<br />
+	    <strong>Radiant Emitter Tubes: </strong>Coated Aluminized Steel<br />
+	    <strong>Certification:</strong> CSA Design Certified<br />
+	    <strong>Warranty:</strong> 1-3-5 (Components-Tubes-Burner)<br />
+	    <strong>Outdoor Approval: </strong>Optional OD-KIT Add-On<br />
+	    <strong>24V Controls: </strong>4000-01V External transformer required for controlling multiple units with a single control.<br />
+	    <strong>Operational Indicator Lights: </strong>Standard</p>
+	</div>
+	<!-- /#details-specifications -->
+	
+	<div class="tab-pane" id="details-related-parts">
+          <h3>Related Parts &amp; Accessories</h3>
+	  Coming soon!
+	  <!--        <ul class="links"><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/lpqtp_7-121.pdf" target="_blank">QT Series Parts List</a></li></ul>   -->
+	</div>
+	<!-- /#details-related-parts -->
+	
+	<div class="tab-pane" id="details-cad-revit">
+          <h3>CAD &amp; Revit</h3>
+	  Coming soon!
+ <!--         <p><a title="Locate Distributor" href="http://staging.detroitradiant.ideosolutions.com/locate-distributor/" target="_blank">Contact your local representative.</a></p> -->
+	</div>
+	<!-- /#details-cad-revit -->
       </div>
-      <!-- /#details-features -->
-      
-      <div id="details-documentation">
-        <h3>Documentation:</h3>
-        <ul class="files">
-	  <li>
-	    <a href="/pdf/QTS SERIES 0611.pdf" target="_blank">QTS Series Quad Tube Brochure</a></li>
-	  <li>
-	    <a href="/pdf/QTS Submittal_BRH_9-12.pdf" target="_blank">QTS Series Submittal Data Sheet</a></li>
-	</ul>       
-      </div>
-      <!-- /#details-documentation -->
-      
-      <div id="details-specifications">
-        <h3>Specifications:</h3>
-        <p><strong>Input Range: </strong>40,000 to 80,000 BTU/h<br />
-	  <strong>Lengths:</strong> 107&#8243;<br />
-	  <strong>Gas Type:</strong> Natural or Propane<br />
-	  <strong>Burner Control Box: </strong>Coated Enameled Steel<br />
-	  <strong>Radiant Emitter Tubes: </strong>Coated Aluminized Steel<br />
-	  <strong>Certification:</strong> CSA Design Certified<br />
-	  <strong>Warranty:</strong> 1-3-5 (Components-Tubes-Burner)<br />
-	  <strong>Outdoor Approval: </strong>Optional OD-KIT Add-On<br />
-	  <strong>24V Controls: </strong>4000-01V External transformer required for controlling multiple units with a single control.<br />
-	  <strong>Operational Indicator Lights: </strong>Standard</p>
-      </div>
-      <!-- /#details-specifications -->
-      
-      <div id="details-related-parts">
-        <h3>Related Parts &amp; Accessories</h3>
-        <ul class="links"><li><a href="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/lpqtp_7-121.pdf" target="_blank">QT Series Parts List</a></li></ul>        </div>
-      <!-- /#details-related-parts -->
-      
-      <div id="details-cad-revit">
-        <h3>CAD &amp; Revit</h3>
-        <p><a title="Locate Distributor" href="http://staging.detroitradiant.ideosolutions.com/locate-distributor/" target="_blank">Contact your local representative.</a></p>
-      </div>
-      <!-- /#details-cad-revit -->
-      
     </div>
     <!-- /.details -->
     
