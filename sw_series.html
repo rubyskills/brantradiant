@@ -4,7 +4,7 @@ layout: template
 <div id="content">
   <div class="content col3 product">
     
-    {% include products_side_nav.html %}
+    {% include commercail_industrial_side_nav.html %}
 
     <div class="main">
       
@@ -26,65 +26,69 @@ layout: template
     
     <div class="sidebar_right">
       
-      <img width="240" height="187" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/SW-Series-Illustration1.jpg" class="attachment-post-thumbnail wp-post-image" alt="SW-Series-Illustration" />    
+      <img width="240" height="187" src="/img/SW-Series-Illustration1.jpg" class="attachment-post-thumbnail wp-post-image" alt="SW-Series-Illustration" />    
     </div>
     <!-- /.sidebar_right -->
     
     <div class="details">
       
-      <ul class="nav">
-        <li><a href="#details-features">Features</a></li>
-        <li><a href="#details-documentation">Documentation</a></li>
-        <li><a href="#details-specifications">Specifications</a></li>
-        <li><a href="#details-related-parts">Related Parts &amp; Accessories</a></li>
-        <li><a href="#details-cad-revit">CAD &amp; Revit</a></li>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#details-features" data-toggle="tab">Features</a></li>
+        <li><a href="#details-documentation" data-toggle="tab">Documentation</a></li>
+        <li><a href="#details-specifications" data-toggle="tab">Specifications</a></li>
+        <li><a href="#details-related-parts" data-toggle="tab">Related Parts &amp; Accessories</a></li>
+        <li><a href="#details-cad-revit" data-toggle="tab">CAD &amp; Revit</a></li>
       </ul>
       <div style="clear: both;"></div>
-      
-      <div id="details-features">
-        <h3>Features:</h3>
-        <ul>
-	  <li>1 or 3 phase electric.</li>
-	  <li>Red or white illumination.</li>
-	  <li>1 to 3 elements.</li>
-	  <li>Lower clearances.</li>
-	</ul>
-	<p><img class="alignnone size-full wp-image-677" alt="SW_Features" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/SW_Features.jpg" width="460" height="312" /></p>
+
+      <div class="tab-content">
+	
+	<div class="tab-pane active" id="details-features">
+          <h3>Features:</h3>
+          <ul>
+	    <li>1 or 3 phase electric.</li>
+	    <li>Red or white illumination.</li>
+	    <li>1 to 3 elements.</li>
+	    <li>Lower clearances.</li>
+	  </ul>
+	  <p><img class="alignnone size-full wp-image-677" alt="SW_Features" src="http://staging.detroitradiant.ideosolutions.com/wp-content/uploads/2013/01/SW_Features.jpg" width="460" height="312" /></p>
+	</div>
+	<!-- /#details-features -->
+	
+	<div class="tab-pane" id="details-documentation">
+          <h3>Documentation:</h3>
+          <ul class="files">
+	    <li>
+	      <a href="/pdf/SW SERIES 0311.pdf" target="_blank">SW Series Short Wave Electric Heater Brochure</a></li>
+	    <li>
+	      <a href="/pdf/SW Series Submittal_BRH_9-12.pdf" target="_blank">SW Series Engineering Data Submittal Sheet</a></li>
+	  </ul> 
+	</div>
+	<!-- /#details-documentation -->
+	
+	<div class="tab-pane" id="details-specifications">
+          <h3>Specifications:</h3>
+          <p><strong>Electrical Consumption:</strong> From 1,600 to 11,400 Watts<br />
+	    <strong>Equivalent BTU:</strong> 5,459 to 38,898 total BTU/h<br />
+	    <strong>Voltage</strong>: From 120 to 575 VAC; 1Ph or 3Ph<br />
+	    <strong>Limited Warranty</strong>: All Components 1-Year<br />
+	    <strong>Certification</strong>: ETL Listed for indoor or outdoor use.</p>
+	</div>
+	<!-- /#details-specifications -->
+	
+	<div class="tab-pane" id="details-related-parts">
+          <h3>Related Parts &amp; Accessories</h3>
+	  Coming soon!
+	  <!--       <ul class="links"><li><a href="http://staging.detroitradiant.ideosolutions.com/locate-distributor/" target="_blank">Please contact your local representative.</a></li></ul>   -->
+	</div>
+	<!-- /#details-related-parts -->
+	
+	<div class="tab-pane" id="details-cad-revit">
+          <h3>CAD &amp; Revit</h3>
+          <p><a title="Locate Distributor" href="/locate_distributor.HTML">Contact your local representative.</a></p>
+	</div>
+	<!-- /#details-cad-revit -->
       </div>
-      <!-- /#details-features -->
-      
-      <div id="details-documentation">
-        <h3>Documentation:</h3>
-        <ul class="files">
-	  <li>
-	    <a href="/pdf/SW SERIES 0311.pdf" target="_blank">SW Series Short Wave Electric Heater Brochure</a></li>
-	  <li>
-	    <a href="/pdf/SW Series Submittal_BRH_9-12.pdf" target="_blank">SW Series Engineering Data Submittal Sheet</a></li>
-	</ul> 
-      </div>
-      <!-- /#details-documentation -->
-      
-      <div id="details-specifications">
-        <h3>Specifications:</h3>
-        <p><strong>Electrical Consumption:</strong> From 1,600 to 11,400 Watts<br />
-	  <strong>Equivalent BTU:</strong> 5,459 to 38,898 total BTU/h<br />
-	  <strong>Voltage</strong>: From 120 to 575 VAC; 1Ph or 3Ph<br />
-	  <strong>Limited Warranty</strong>: All Components 1-Year<br />
-	  <strong>Certification</strong>: ETL Listed for indoor or outdoor use.</p>
-      </div>
-      <!-- /#details-specifications -->
-      
-      <div id="details-related-parts">
-        <h3>Related Parts &amp; Accessories</h3>
-        <ul class="links"><li><a href="http://staging.detroitradiant.ideosolutions.com/locate-distributor/" target="_blank">Please contact your local representative.</a></li></ul>        </div>
-      <!-- /#details-related-parts -->
-      
-      <div id="details-cad-revit">
-        <h3>CAD &amp; Revit</h3>
-        <p><a title="Locate Distributor" href="http://staging.detroitradiant.ideosolutions.com/locate-distributor/">Contact your local representative.</a></p>
-      </div>
-      <!-- /#details-cad-revit -->
-      
     </div>
     <!-- /.details -->
     
