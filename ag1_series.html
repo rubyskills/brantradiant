@@ -2,15 +2,18 @@
 layout: template
 ---
 <div id="content">
-  <div class="content col3 product">
-    
-    {% include agricultural_side_nav.html %}
 
-    <div class="main">
+  <div class="content col3 product">
+    <div class="row">
+    
+      <div class="span3">
+	{% include agricultural_side_nav.html %}
+      </div>
       
-      <h1>AG1 Series</h1>
-      <h2>AGRICULTURAL GAS-FIRED, SINGLE-STAGE INFRARED HEATERS</h2>
-      
+      <div class="span7">
+	<h1>AG1 Series</h1>
+	<h2>AGRICULTURAL GAS-FIRED, SINGLE-STAGE INFRARED HEATERS</h2>
+	
       <p>The AG1 Series is designed for poultry and non-corrosive
 	agricuttural environments. Proven construction features assure
 	reliable performance at an economical price. Performance and
@@ -21,34 +24,33 @@ layout: template
 	accessories and potter (waterproof) Circuit boards. For use in
 	poultry, dairy, arena, barns, shops and much more.</p>
       
-    </div>
-    <!-- /.main -->
+      </div><!-- /span7 -->
     
-    <div class="sidebar_right">
-      
-      <img width="177" height="300" src="/img/LS_V2_tubehtr_1.jpg" class="attachment-post-thumbnail wp-post-image" alt="V2_tubehtr_1" />    
-    </div>
-    <!-- /.sidebar_right -->
-    
-    <div class="details">
-      
-      <ul class="nav nav-tabs">
-        <li class="active"><a href="#details-features" data-toggle="tab">Features</a></li>
-        <li><a href="#details-documentation" data-toggle="tab">Documentation</a></li>
-        <li><a href="#details-specifications" data-toggle="tab">Specifications</a></li>
-        <li><a href="#details-related-parts" data-toggle="tab">Related Parts &amp; Accessories</a></li>
-        <li><a href="#details-cad-revit" data-toggle="tab">CAD &amp; Revit</a></li>
-      </ul>
-      <div style="clear: both;"></div>
-
-      <div class="tab-content">
+      <div class="span2">
 	
-	<div class="tab-pane active" id="details-features">
-          <h3>Features:</h3>
-	  <ul>
-            <li>Coated Titanium Stabilized or Aluminized Combustion Chamber.</li>
-	    <li>Coated Aluminized Radiant Tubes.</li>
-	    <li>Highly Polished Aluminum Reflectors.</li>
+	<img width="177" height="300" src="/img/LS_V2_tubehtr_1.jpg" class="attachment-post-thumbnail wp-post-image" alt="V2_tubehtr_1" />    
+      </div><!-- /.sidebar_right -->
+    
+      <div class="span7 offset3">
+	<div class="details">
+	  
+	  <ul class="nav nav-tabs">
+            <li class="active"><a href="#details-features" data-toggle="tab">Features</a></li>
+            <li><a href="#details-documentation" data-toggle="tab">Documentation</a></li>
+            <li><a href="#details-specifications" data-toggle="tab">Specifications</a></li>
+            <li><a href="#details-related-parts" data-toggle="tab">Related Parts &amp; Accessories</a></li>
+            <li><a href="#details-cad-revit" data-toggle="tab">CAD &amp; Revit</a></li>
+	  </ul>
+	  <div style="clear: both;"></div>
+	  
+	  <div class="tab-content">
+	    
+	    <div class="tab-pane active" id="details-features">
+              <h3>Features:</h3>
+	      <ul>
+		<li>Coated Titanium Stabilized or Aluminized Combustion Chamber.</li>
+		<li>Coated Aluminized Radiant Tubes.</li>
+		<li>Highly Polished Aluminum Reflectors.</li>
 	    <li>Water Resistant Burner Control Box.</li>
 	    <li>External Operational Indicator Lights.</li>
 	    <li>Potted (water resistant) Circuitry.</li>
@@ -62,7 +64,7 @@ layout: template
           <h3>Documentation:</h3>
           <ul class="files">
 	    <li>
-	      <a href="/pdf/AG1 SERIES 0212.pdf" target="_blank">AG1 Series Brochure</a></li>
+	      <a href="/pdf/AG1_SERIES_0212.pdf" target="_blank">AG1 Series Brochure</a></li>
 	  </ul> 
 	</div>
 	<!-- /#details-documentation -->
@@ -93,12 +95,11 @@ layout: template
 	  <ul class="files"></ul>        </div>
 	<!-- /#details-cad-revit -->
 	
-      </div>
-      <!-- /.details -->
-      
-      
+	  </div>
+	</div><!-- /.details -->
+      </div><!-- /span7 -->
       <div style="clear: both;"></div>
-    </div><!-- /.content -->
-
-  </div>
-  <!--#content-->
+    </div><!-- /hakki row -->
+  </div><!-- /.content -->
+  
+</div><!--#content-->
