@@ -41,6 +41,57 @@
     font-style: normal;
 }
 
+.carousel-control {
+    top: 105%;
+    left: 400px;
+    height: 36px;
+}
+
+.carousel-control.right {
+right: 393px;
+}
+
+.carousel-indicators {
+position: absolute;
+top: 322px;
+right: 447px;
+z-index: 5;
+margin: 0;
+list-style: none;
+}
+
+.carousel-indicators li {
+display: block;
+float: left;
+width: 10px;
+height: 10px;
+margin-left: 5px;
+text-indent: -999px;
+background-color: #ccc;
+background-color: rgba(78, 117, 219, 0.25);
+border-radius: 5px;
+}
+
+.carousel-indicators .active {
+background-color: black;
+}
+
+.carousel-caption {
+    position: static;
+    background: none;
+    background: none;
+}
+
+.carousel-caption p {
+line-height: 20px;
+color: black;
+}
+
+#carauselfa {
+    margin-top: 26px; 
+    margin-bottom: 113px;
+}
+
 #header .top {
 min-width: 1096px;
 height: 202px;

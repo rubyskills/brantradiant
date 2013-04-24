@@ -330,6 +330,7 @@ a:hover {
     background-image: url(/img/rotator_background.jpg);
     background-repeat: repeat-x;
     background-position: bottom;
+    padding-bottom: 10px;
 }
 
 .rotator .window {
@@ -363,13 +364,13 @@ a:hover {
 }
 
 #content .rotator .item h1 {
-    font-family: AlternateGothicNo1;
+    font-family: BebasNeueRegular;
     font-weight: normal;
     text-transform: uppercase;
     color: #959595;
-    font-size: 42px;
+    font-size: 41px;
     line-height: 42px;
-    padding: 0 0 25px 0;
+    padding: 14px 0 25px 0;
     margin: 0;
 }
 
