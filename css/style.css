@@ -308,7 +308,7 @@ a:hover {
 }
 
 #content .content {
-    width: 960px;
+    width: 970px;
     margin: 50px auto;
     position: relative;
 }
@@ -559,9 +559,11 @@ a:hover {
 
 #content .details {
     clear: both;
-    padding-left: 252px;
-    padding-top: 25px;
+ /*   padding-left: 252px; */
+    padding-top: 74px;
     width: 716px;
+    position: relative;
+    left: -41px;
 }
 
 #content .details .nav li a {

@@ -171,8 +171,15 @@ clear: both;
 /* /About Page css override */
 
 /* commercail & industrial thumnails */
+menu, ol, ul {
+    padding: 0 0 0 19px;
+}
+.well {
+    padding: 3px;
+    background-color: #fff;
+}
 /*
-#content .main { 
+  #content .main { 
     float: none; 
 } 
 
@@ -199,27 +206,39 @@ clear: both;
     margin: 0px auto; 
     margin-left: 333px; 
 } 
-
+*/
 #highintensity { 
-    padding-top: 36px; 
-    padding-bottom: 57px; 
+    padding-top: 42px; 
+    padding-bottom: 59px; 
 } 
-
+/*
 #portable { 
     padding-top: 29px; 
     padding-bottom: 31px; 
 } 
-
+*/
 #electric { 
-    padding-top: 29px; 
-    padding-bottom: 31px; 
+    padding-top: 43px; 
+    padding-bottom: 61px; 
 } 
 
 #unit { 
-    padding-top: 11px; 
-    padding-bottom: 14px; 
-} 
-
+    padding-top: 26px; 
+    padding-bottom: 46px; 
+}
+#ph {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+#bah {
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+#uh {
+    padding-top: 13px;
+    padding-bottom: 24px;
+}
+/*
 #content .main p { 
     margin: 0 0 0px 0; 
 } 
@@ -235,7 +254,7 @@ clear: both;
 .thumbnail {
     text-align: center;
 }
-
+*/
 /* /commercial & industrial thumnails */
 
 /* select your market dropdown override button */
