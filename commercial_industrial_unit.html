@@ -2,83 +2,45 @@
 layout: template
 ---
 <div id="content">
-
+  
   <div class="content col3 products">
-    
-    {% include commercail_industrial_side_nav.html %}
-    
-    <!--     <div class="main"> -->
-    <!--
-	<style type="text/css">
-
-	  .thumbnails {
-	  margin-left: -41px;
-	  }
-	  .thumbnail {
-	  padding: 0px;
-	  }
-	  dl, menu, ol, ul {
-	  margin: -6px 0;
-	  }
-	  .topheader {
-	  padding-left: 28px;
-	  }
-	  .thumbnail h3 {
-	  font-family: Arial;
-	  font-size: 16px;
-	  font-weight: bold;
-	  margin: 0em 0;
-	  }
-	  .secondrow {
-	  width: 67%;
-	  margin: 0px auto;
-	  margin-left: 333px;
-	  }
-	  #content .main p {
-	  margin: 0 0 0px 0;
-	  }
-	  #content .content {
-	  width: 955px;
-	  }
-	  #content .col3 .main {
-	  width: 939px;
-	  }
-	</style>
-	--> 
-    <div class="topheader">
-      <h1 id="page-title">Commercial &#038; Industrial Products</h1>
-      <p><strong>Unit Heaters</strong>
-    </div>
-    <div class="span2 well">
-      <a class="thumbnail" href="/fa_series.html"><br />
-	<img alt="" src="/img/fa_heater-e1362170135584.jpg" /><br />
-      </a>
-      <center>
-      <div class="thumbnail">
-	<h4>FA SERIES</h4>
+    <div class="row">
+      
+      <div class="span3">
+	{% include commercail_industrial_side_nav.html %}
       </div>
-      </center>
-    </div>
-    <!-- /span2 -->
-    
-    <div class="span2 well">
-      <a id="uh" class="thumbnail" href="/uh_series.html"><br />
-	<img alt="" src="/img/UH-Cover-Illustration-w-bracket-e1362171292711.jpg" /><br />
-      </a>
-      <center>
-      <div class="thumbnail">
-	<h4>UH SERIES</h4>
+      
+      <div class="span9">
+	<h1>Commercial &#038; Industrial Products</h1>
+	<p><strong>Unit Heaters</strong></p>
       </div>
-      </center>
-    </div>
-    <p><!-- /span2 --></p>
-  </div>
-  <!-- /.main -->
-  
-  
-  <div style="clear: both;"></div>
-</div><!-- /.content -->
-
-
-</div>
-<!--#content-->
+      
+      <div class="span6">
+	<div class="span2 well">
+	  <a class="thumbnail" href="/fa_series.html"><br />
+	    <img alt="" src="/img/fa_heater-e1362170135584.jpg" /><br />
+	  </a>
+	  <center>
+	    <div class="thumbnail">
+	      <h4>FA SERIES</h4>
+	    </div>
+	  </center>
+	</div><!-- /span2 -->
+	
+	<div class="span2 well">
+	  <a id="uh" class="thumbnail" href="/uh_series.html"><br />
+	    <img alt="" src="/img/UH-Cover-Illustration-w-bracket-e1362171292711.jpg" /><br />
+	  </a>
+	  <center>
+	    <div class="thumbnail">
+	      <h4>UH SERIES</h4>
+	    </div>
+	  </center>
+	</div><!-- /span2 -->
+      </div>
+    </div><!-- /row -->
+    
+    
+    <div style="clear: both;"></div>
+  </div><!-- /.content -->
+</div><!--#content-->

@@ -3,28 +3,17 @@ layout: template
 ---
 <div id="content">
 
-  <div class="content col1">
-    
-    {% include commercail_industrial_side_nav.html %}
-    
-    <div class="main">
-      <style type="text/css">
-	#content .content {
-	width: 955px;
-	}
-	#content .main {
-	float: none;
-	}
-	#content .co11 .main {
-	width: 939px;
-	margin-left: 10px;
-	}
-      </style>
+  <div class="content col3">
+    <div class="row">
       
-	<div class="topheader">
-	  <h1 id="page-title">Commercial &#038; Industrial Products</h1>
-	  <p><strong>Low Intensity</strong>
-	</div>
+      <div class="span3">
+	{% include commercail_industrial_side_nav.html %}
+      </div>
+
+      <div class="span9">      
+	<h1>Commercial &#038; Industrial Products</h1>
+	<p><strong>Low Intensity</strong></p>
+	
 	<table class="table table-bordered table-condensed span7">
 	  <thead>
 	    <tr>
@@ -85,16 +74,13 @@ layout: template
 	    </tr>
 	  </tbody>
 	</table>
-	<p></p>
+
       </div>
-      <p><!-- /row --></p>
-    </div>
-    <!-- /.main -->
+    </div><!-- /.main -->
     
     
     <div style="clear: both;"></div>
   </div><!-- /.content -->
 
   
-</div>
-<!--#content-->
+</div><!--#content-->
