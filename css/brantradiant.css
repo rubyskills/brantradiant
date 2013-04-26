@@ -109,10 +109,10 @@ color: black;
 min-width: 1096px;
 height: 202px;
 position: relative;
-background-image: url(/img/HEADER.gif);
+background-image: url(/img/top_header_image.gif);
 background-repeat: no-repeat;
 background-position: center;
-background-color: black;
+background-color: #01163d;
 }
 
 #header .welcome .title {
