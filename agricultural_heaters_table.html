@@ -3,28 +3,18 @@ layout: template
 ---
 <div id="content">
 
-  <div class="content col1">
+  <div class="content col3">
+    <div class="row">
     
-    {% include agricultural_side_nav.html %}
+      <div class="span3">
+	{% include agricultural_side_nav.html %}
+      </div>
     
-    <div class="main">
-      <style type="text/css">
-	#content .content {
-	width: 955px;
-	}
-	#content .main {
-	float: none;
-	}
-	#content .co11 .main {
-	width: 939px;
-	margin-left: 10px;
-	}
-      </style>
       
-	<div class="topheader">
-	  <h1 id="page-title">Agricultural Heaters</h1>
-	  <p><strong>Select your Heater:</strong>
-	</div>
+	<div class="span9">
+	  <h1>Agricultural Heaters</h1>
+	  <p><strong>Select your Heater:</strong></p>
+
 	<table class="table table-bordered table-condensed span7">
 	  <thead>
 	    <tr>
@@ -46,16 +36,10 @@ layout: template
 	    </tr>
 	  </tbody>
 	</table>
-	<p></p>
+
       </div>
-      <p><!-- /row --></p>
-    </div>
-    <!-- /.main -->
-    
-    
-    <div style="clear: both;"></div>
+    </div><!-- /.main -->
   </div><!-- /.content -->
 
   
-</div>
-<!--#content-->
+</div><!--#content-->
