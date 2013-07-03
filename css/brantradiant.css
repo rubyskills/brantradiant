@@ -1,16 +1,3 @@
-/*@font-face {
-    font-family: 'MyriadPro-Bold_0';
-    src: url('fonts/MyriadPro-Bold_0.eot?');
-    src: 
-    url('/fonts/MyriadPro-Bold_0.eot?') format('eot'), 
-    url('/fonts/MyriadPro-Bold_0.otf?') format('otf'), 
-    url('/fonts/MyriadPro-Bold_0.woff') format('woff'), 
-    url('/fonts/MyriadPro-Bold_0.ttf') format('truetype'), 
-    url('/fonts/MyriadPro-Bold_0.svg') format('svg');
-    font-style: italic;
-}
-*/
-
 @font-face {
     font-family: 'MyriadProBold';
     src: url('/fonts/myriadpro-bold_0.eot');
@@ -43,7 +30,7 @@
 
 .carousel-control {
     top: 107%;
-    left: 400px;
+    left: 413px;
     height: 36px;
     width: 40px;
     margin-top: -20px;
@@ -302,24 +289,6 @@ menu, ol, ul {
     padding-top: 13px;
     padding-bottom: 18px;
 }
-/*
-#content .main p { 
-    margin: 0 0 0px 0; 
-} 
-
-#content .content { 
-    width: 955px; 
-}
-
-#content .col3 .main { 
-    width: 939px; 
-} 
-
-.thumbnail {
-    text-align: center;
-}
-*/
-/* /commercial & industrial thumnails */
 
 /* select your market dropdown override button */
 
