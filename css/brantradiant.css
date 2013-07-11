@@ -181,15 +181,15 @@ height: 10px;
 }
 
 #footer .address h2 {
-font-family: MyriadPro- Bold;
-font-size: 19px;
+font-family: BebasNeueRegular;
+font-weight: normal;
+font-size: 21px;
 margin: 0;
 color: #333;
 }
 
 #footer .address p, #footer .links {
-font-size: 17px;
-font-family: MyriadPro- Bold;
+font-size: 12px;
 line-height: 18px;
 }
 
