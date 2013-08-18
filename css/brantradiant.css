@@ -200,6 +200,15 @@ border-right: solid 1px;
 border-color: #C8C8C8;
 }
 
+#footer .healpayLogo {
+display: block;
+margin: 40px 0 0 0;
+padding: 0 30px 52px 30px;
+border-left: solid 1px;
+border-color: #C8C8C8;
+float: left;
+}
+
 /* About Page css override */
 
 #content h1 {
