@@ -1085,8 +1085,10 @@ td {
 }
 
 #footer .usa {
-    padding-left: 32px;
+    padding-left: -32px;
     margin-top: -7px;
+    position:relative;
+    right:-50px;
 }
 
 #footer .redbar {
