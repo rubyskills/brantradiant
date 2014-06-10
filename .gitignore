@@ -3,3 +3,4 @@ _site
 *#*#
 *.#*
 Thumbs.db
+.production.s3.json
